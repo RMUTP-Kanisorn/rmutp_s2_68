@@ -1,32 +1,8 @@
-{
-  "dependencies": {
-    "dotenv": "^17.2.1",
-    "express": "^5.1.0",
-    "prisma": "^6.14.0"
-  },
+﻿{
   "name": "rmutp_s2_68",
   "version": "1.0.0",
-  "description": "Kanisorn Chonggol",
-  "main": "index.js",
+  "private": true,
   "type": "commonjs",
-  "scripts": {
-    "dev": "ts-node src/server.ts",
-    "build": "tsc",
-    "start": "node dist/server.js"
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RMUTP-Kanisorn/rmutp_s2_68.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RMUTP-Kanisorn/rmutp_s2_68/issues"
-  },
-  "homepage": "https://github.com/RMUTP-Kanisorn/rmutp_s2_68#readme",
   "dependencies": {
     "@hono/node-server": "^1.18.2",
     "@prisma/client": "^6.13.0",
@@ -34,7 +10,13 @@
     "prisma": "^6.13.0"
   },
   "devDependencies": {
-    "ts-node": "^10.9.2"
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
   }
-}
 }

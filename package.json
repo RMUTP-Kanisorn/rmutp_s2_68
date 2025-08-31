@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "rmutp_s2_68",
   "version": "1.0.0",
   "private": true,
@@ -12,7 +12,8 @@
   "devDependencies": {
     "@types/node": "^20.11.30",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.4"
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
   },
   "scripts": {
     "dev": "ts-node src/server.ts",

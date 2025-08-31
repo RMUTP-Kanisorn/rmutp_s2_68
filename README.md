@@ -1,12 +1,13 @@
-# python prisma
+# Python Prisma
 
 Kanisorn Chonggol
 
 ## Using it
-```
-copy env.simple .env
+```bash
+cp env.simple .env
 docker compose -f db.yml up -d
 ```
+
 ## Prisma
 ### First time
 ```bash
